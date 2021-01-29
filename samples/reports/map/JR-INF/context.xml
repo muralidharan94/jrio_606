@@ -1,0 +1,15 @@
+<context xmlns="">
+	<properties>
+		<!-- uncomment this property and set a valid Google API key to make use of the mapping functionality --> 
+		<!--
+		<property>
+			<name>net.sf.jasperreports.components.map.key</name>
+			<value>[REPLACE_ME]</value>
+		</property>
+		-->
+		<property>
+			<name>net.sf.jasperreports.components.map.version</name>
+			<value>3</value>
+		</property>
+	</properties>        
+</context>
