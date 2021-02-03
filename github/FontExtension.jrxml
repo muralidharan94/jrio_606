@@ -17,6 +17,13 @@
 				</textElement>
 				<text><![CDATA[உறுப்புரை]]></text>
 			</staticText>
+			<staticText>
+				<reportElement x="412" y="23" width="100" height="30" uuid="dd44a27a-5025-47ca-a358-fe7db1f03d02"/>
+				<textElement>
+					<font fontName="OstrichSans"/>
+				</textElement>
+				<text><![CDATA[Static Text]]></text>
+			</staticText>
 		</band>
 	</title>
 	<pageHeader>
