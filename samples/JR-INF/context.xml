@@ -9,6 +9,9 @@
                 <entry>
                         <path>/samples/JR-INF/lib/repo-sample.jar</path>
                 </entry>
+				<entry>
+                        <path>/samples/reports/list.jar</path>
+                </entry>
         </classpath>
 		<properties>
 			<property>
