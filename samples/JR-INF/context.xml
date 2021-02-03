@@ -10,7 +10,7 @@
                         <path>/samples/JR-INF/lib/repo-sample.jar</path>
                 </entry>
 				<entry>
-                        <path>/samples/JR-INF/lib/list.jar</path>
+                        <path>/jrio_606/samples/JR-INF/lib/list.jar</path>
                 </entry>
         </classpath>
 		<properties>
