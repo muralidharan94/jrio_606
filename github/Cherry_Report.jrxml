@@ -2,8 +2,8 @@
 <!-- Created with Jaspersoft Studio version 7.10.0.beta-v202101210935 using JasperReports Library version master-SNAPSHOT-28f09ab2d562905c86a8be133964a5ae208afa10  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Cherry_Report" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="13acf49e-4913-4d1b-bccc-113817ad15d1">
 	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapterPostgres.xml"/>
-	<property name="net.sf.jasperreports.data.adapter" value="/samples/data/DataAdapterPostgres.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapterPostgres1.xml"/>
+	<property name="net.sf.jasperreports.data.adapter" value="/samples/data/DataAdapterPostgres1.xml"/>
 	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false"/>
 	<style name="SubTitle" forecolor="#CCCCCC" fontName="Times New Roman" fontSize="18" isBold="false"/>
 	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true"/>
