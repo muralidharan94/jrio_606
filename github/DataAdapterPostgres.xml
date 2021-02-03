@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>DataAdapterPostgres</name><driver>org.postgresql.Driver</driver><username>postgres</username><password>postgres</password><savePassword>true</savePassword><url>jdbc:postgresql://172.17.17.107:5432/foodmart</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>DataAdapterPostgres</name><driver>org.postgresql.Driver</driver><username>postgres</username><password>postgres</password><savePassword>true</savePassword><url>jdbc:postgresql://localhost:5432/foodmart</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>
