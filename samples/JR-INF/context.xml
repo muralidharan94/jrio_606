@@ -18,6 +18,9 @@
 				<entry>
                         <path>/samples/JR-INF/lib/ostrich.jar</path>
                 </entry>
+				<entry>
+                        <path>/samples/JR-INF/lib/font.jar</path>
+                </entry>
         </classpath>
 		<properties>
 			<property>

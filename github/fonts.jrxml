@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 7.9.0.beta-v202011041354 using JasperReports Library version 6.16.0-SNAPSHOT-ba51beb81d92e176cefca2d4df1e149db866c882  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="fonts" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="22eff6ab-12b3-4637-ab01-d5a1024e0fe4">
+	<property name="ireport.jasperserver.url" value="http://infra-platforms-phase2-11995-njaksani.pfa.jaspersoft.com:8080/jasperserver-pro/"/>
+	<property name="ireport.jasperserver.user" value="superuser"/>
+	<property name="ireport.jasperserver.report.resource" value="/public/fonts_New_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/public/fonts_New"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement x="265" y="17" width="100" height="30" uuid="7cbac4d1-e74b-4304-a9db-15dd1925465c"/>
+				<textElement>
+					<font fontName="6Nov"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
