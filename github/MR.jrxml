@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 7.10.0.beta-v202101210935 using JasperReports Library version master-SNAPSHOT-28f09ab2d562905c86a8be133964a5ae208afa10  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MR" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6cc2d4ad-a0cb-4a7f-a560-c0f59367773c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapterPostgres1.xml"/>
+	<property name="net.sf.jasperreports.data.adapter" value="/samples/data/DataAdapterPostgres1.xml"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT account_parent,
+	account_description,
+	account_rollup,
+	custom_members,
+	account_id,
+	account_type
+FROM account]]>
+	</queryString>
+	<field name="account_parent" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="account_parent"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_parent"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<field name="account_description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="account_description"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_description"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<field name="account_rollup" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="account_rollup"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_rollup"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<field name="custom_members" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="custom_members"/>
+		<property name="com.jaspersoft.studio.field.label" value="custom_members"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<field name="account_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="account_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<field name="account_type" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="account_type"/>
+		<property name="com.jaspersoft.studio.field.label" value="account_type"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="account"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="95" height="30" uuid="bcb06bdb-b0db-4602-9bd3-2d1256cf8c51">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="14c6ed53-b2ea-49d4-a679-19b35422d0bd"/>
+				</reportElement>
+				<text><![CDATA[account_parent]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="0" width="92" height="30" uuid="37c9a719-1889-409a-9ac9-d238bfe61643">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27cc77ef-d3b8-4a29-af8d-8827ebdcf627"/>
+				</reportElement>
+				<text><![CDATA[account_description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="0" width="92" height="30" uuid="6d17a20d-bf09-4241-8ba3-ba0841a6ed97">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="00a53637-3d21-4a05-83b9-6bc567787c38"/>
+				</reportElement>
+				<text><![CDATA[account_rollup]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="0" width="92" height="30" uuid="4fcfcabc-d384-4b52-9416-f745ed3269df">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9de67c76-c2ab-474d-9e87-2d9802155acf"/>
+				</reportElement>
+				<text><![CDATA[custom_members]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="371" y="0" width="92" height="30" uuid="6af1f361-f956-4a3c-8c53-51bbda50fd05">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8f7618e8-9292-4d03-8b47-22f242d1b96a"/>
+				</reportElement>
+				<text><![CDATA[account_id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="463" y="0" width="92" height="30" uuid="f706f590-b5e9-4305-bed0-0fa56835243b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4141308e-fc0d-4675-97c4-496873e832dd"/>
+				</reportElement>
+				<text><![CDATA[account_type]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="95" height="30" uuid="db4c4e0b-a4a8-4d3a-82b5-c960ed116511">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="14c6ed53-b2ea-49d4-a679-19b35422d0bd"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{account_parent}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="0" width="92" height="30" uuid="db91527d-eada-4beb-8b08-a87cd7bc1f43">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27cc77ef-d3b8-4a29-af8d-8827ebdcf627"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{account_description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="187" y="0" width="92" height="30" uuid="b6d8ab11-1960-4db6-b0f5-259048c245da">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="00a53637-3d21-4a05-83b9-6bc567787c38"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{account_rollup}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="0" width="92" height="30" uuid="d729ec09-0a2e-47fb-bd00-42b0743b07ba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9de67c76-c2ab-474d-9e87-2d9802155acf"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{custom_members}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="0" width="92" height="30" uuid="e3d9d797-6a70-4bcb-979d-49dcafa781c3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8f7618e8-9292-4d03-8b47-22f242d1b96a"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{account_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="463" y="0" width="92" height="30" uuid="eb049ca5-7029-4b36-9aa9-7177acf87d31">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4141308e-fc0d-4675-97c4-496873e832dd"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{account_type}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="400" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport>
+				<reportElement x="117" y="115" width="200" height="200" uuid="17edca23-bc69-4092-8a69-f51ecb382d66"/>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["/samples/reports/SR.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</summary>
+</jasperReport>
