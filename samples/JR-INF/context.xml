@@ -13,10 +13,10 @@
                         <path>/samples/JR-INF/lib/list.jar</path>
                 </entry>
 				<entry>
-                        <path>/samples/JR-INF/lib/tamil.jar</path>
+                        <path>/git_resources/tamil.jar</path>
                 </entry>
 				<entry>
-                        <path>/samples/JR-INF/lib/ostrich.jar</path>
+                        <path>/git_resources/ostrich.jar</path>
                 </entry>
 				<entry>
                         <path>/samples/JR-INF/lib/font.jar</path>
