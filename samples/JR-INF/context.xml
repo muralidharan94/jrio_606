@@ -4,22 +4,16 @@
                         <path>/samples/JR-INF/lib/hsqldb-2.4.0.jar</path>
                 </entry>
                 <entry>
-                        <path>/samples/data/hsqldb-northwind.jar</path>
-                </entry>
-                <entry>
                         <path>/samples/JR-INF/lib/repo-sample.jar</path>
                 </entry>
 				<entry>
                         <path>/samples/JR-INF/lib/list.jar</path>
                 </entry>
 				<entry>
-                        <path>/git_resources/tamil.jar</path>
+                        <path>/samples/JR-INF/lib/tamil.jar</path>
                 </entry>
 				<entry>
-                        <path>/git_resources/ostrich.jar</path>
-                </entry>
-				<entry>
-                        <path>/samples/JR-INF/lib/font.jar</path>
+                        <path>/samples/JR-INF/lib/ostrich.jar</path>
                 </entry>
         </classpath>
 		<properties>
