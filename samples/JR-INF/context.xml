@@ -6,15 +6,6 @@
                 <entry>
                         <path>/samples/JR-INF/lib/repo-sample.jar</path>
                 </entry>
-				<entry>
-                        <path>/samples/JR-INF/lib/list.jar</path>
-                </entry>
-			    <entry>
-                        <path>/samples/JR-INF/lib/tamil.jar</path>
-                </entry>
-				<entry>
-                        <path>/samples/JR-INF/lib/ostrich.jar</path>
-                </entry>
         </classpath>
 		<properties>
 			<property>
