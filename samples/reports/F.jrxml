@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 7.10.0.beta-v202101210935 using JasperReports Library version master-SNAPSHOT-28f09ab2d562905c86a8be133964a5ae208afa10  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FontExtension" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e3fce2c5-e721-49aa-ba89-156542f5b539">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="234" y="23" width="100" height="30" uuid="28c1b8a7-a88f-4937-9056-b7af81f24f7b"/>
+				<textElement>
+					<font fontName="TamilFont"/>
+				</textElement>
+				<text><![CDATA[à®‰à®±à¯�à®ªà¯�à®ªà¯�à®°à¯ˆ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="412" y="23" width="100" height="30" uuid="dd44a27a-5025-47ca-a358-fe7db1f03d02"/>
+				<textElement>
+					<font fontName="OstrichSans"/>
+				</textElement>
+				<text><![CDATA[Static Text]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
